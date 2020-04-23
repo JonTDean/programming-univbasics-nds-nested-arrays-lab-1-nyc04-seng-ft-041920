@@ -34,8 +34,9 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  
-  new array[0] = array[storage].sort
+  array_storage = [
+     CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE
+  ]
 end
 
 def matrix_lookup(matrix, row, column)
