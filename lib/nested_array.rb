@@ -63,6 +63,8 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
+  
+  new array[0] = array[storage].sort
 end
 
 def matrix_lookup(matrix, row, column)
