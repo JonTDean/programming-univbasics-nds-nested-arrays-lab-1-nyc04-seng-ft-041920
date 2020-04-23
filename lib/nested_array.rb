@@ -24,7 +24,7 @@ def assembled_matrix
   
   array_storage = [
     array_storage = [
-     ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE
+     CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE
     ]
   ]
   
