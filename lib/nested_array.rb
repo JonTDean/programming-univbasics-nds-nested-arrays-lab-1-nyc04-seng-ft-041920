@@ -23,20 +23,9 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   array_storage = [
-    [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ],
-    [
-      "Strawberries",
-      "Potatoes",
-      "Grapes",
-      "Avocadoes",
-      "Asparagus"
-    ]
+  array_storage = [
+   ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE
+  ]
   ]
   
   return array_storage
