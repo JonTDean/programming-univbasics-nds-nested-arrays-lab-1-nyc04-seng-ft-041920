@@ -23,9 +23,9 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   array_storage = [
-  array_storage = [
-   ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE
-  ]
+    array_storage = [
+     ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE
+    ]
   ]
   
   return array_storage
@@ -36,22 +36,6 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  array_storage = [
-    [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ],
-    [
-      "Strawberries",
-      "Potatoes",
-      "Grapes",
-      "Avocadoes",
-      "Asparagus"
-    ]
-  ]
   
   new array[0] = array[storage].sort
 end
